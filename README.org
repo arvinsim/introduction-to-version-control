@@ -1,0 +1,44 @@
+* Introduction to Version Control
+** Meta
+*** What to include(Objectives)
+**** A short comparison between the different version control implementations
+*** What not to include(Scope and Limitation)
+**** Discuss the different implentations of 
+** Outline
+*** What is Version Control?
+**** History
+***** Ad-hoc versioning
+**** The Need
+**** Definition
+***** Official Definition
+***** Compare it with multiple timelines
+*** Version Control Concepts
+**** Repository
+**** Cloning in Repository
+**** Single Timeline 
+***** Revisions
+***** Commiting
+***** Reverting
+**** Multiple Timeline
+***** Branches
+***** Merging
+***** Conflict
+*** Types of Version Control
+**** Centralized
+***** Definition
+***** Advantages
+**** Distributed
+***** Definition
+***** Advantages
+*** Comparison between the different version control implementations
+**** SVN
+***** History
+***** Goal
+**** Git
+***** History
+***** Goal
+**** Mercurial
+***** History
+***** Goal
+**** Others(CSV, Perforce, Bitkeeper)
+***** Summary
