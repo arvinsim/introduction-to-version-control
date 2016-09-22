@@ -27,21 +27,76 @@
 				<section>
 					<h1>Introduction to Version Control</h1>
 				</section>
+
 				<section>
-					<h2>What is Version Control?</h2>
+					<h2>So what is Version Control?</h2>
+				</section>
+
+				<section>
+					<h2>Before that, let's see what most of us(including me) were doing before version control</h2>
+				</section>
+
+				<section>
+					<h3>Adhoc Version Control</h3>
+					<section>
+						<p>How many of you have already done this?</p>
+					</section>
+					<section>
+                        <code>
+                            ClassProject2016_final.doc
+                            ClassProject2016_final_test.doc
+                            ClassProject2016_final_jane_copy.doc
+                            ClassProject2016_final_john_copy.doc
+                            ClassProject2016_FINAL.doc
+                            ClassProject2016_FINAL_FINAL.doc
+                        </code>
+					</section>
+					<section>
+						<p>This is already a form of Version Control!</p>
+						<ul>
+							<li>Sometimes we use dates to differentiate files</li>
+							<li>Others use descriptions like "FINAL", "preview", "john_copy"</li>
+							<li>Some organized people use folders to sort the files</li>
+						</ul>
+					</section>
 				</section>
 				<section>
-					<h3>Adhoc Version</h3>
+					<h3>But is it enough?</h3>
 					<section>
-						Brief recounting of the ad-hoc approach
+						<p>Sometimes it's good enough</p>
+						<p>But problems quickly arise when a number of factors arise</p>
 					</section>
 					<section>
-						List the advantages of this approach
-					</section>
-					<section>
-						List the disadvantages of this approach
+						<ul>
+							<li>What if you are working on a team? How will you collate your work?</li>
+							<li>What if you are working on a lot of files?</li>
+							<li>What if you want to save versions frequently?</li>
+							<li>What if you messed up and want to get back to the last correct copy?</li>
+						</ul>
 					</section>
 				</section>
+
+				<section>
+					<section>
+						<h3>Is there a better to do handle files?</h3>
+					</section>
+					<section>
+						<h3>The answer is YES!</h3>
+					</section>
+				</section>
+
+				<section>
+					<h2>Enter version control</h2>
+				</section>
+
+				<section>
+					<h2>So What is Version Control?</h2>
+					<section></section>
+					<section>
+
+					</section>
+				</section>
+
 				<section>
 					<h3>Existing versioning in programs</h3>
 					<section>
@@ -74,7 +129,7 @@
 				<section>
 					<h3>Repository</h3>
 					<section>
-						Definition
+						<p>The repository is where files' current and historical data are stored, often on a server.</p>
 					</section>
 					<section>
 						Picture
@@ -84,7 +139,7 @@
 				<section>
 					<h3>Versions / Revisions</h3>
 					<section>
-						Definition
+						<p>To commit (check in, ci or, more rarely, install, submit or record) is to write or merge the changes made in the working copy back to the repository. The terms 'commit' and 'checkin' can also be used as nouns to describe the new revision that is created as a result of committing.</p>
 					</section>
 					<section>
 						Picture
@@ -168,7 +223,7 @@
 				<section>
                     <h3>Centralized Version Control</h3>
 					<section>
-						Definition
+						<p>Centralized version control systems are based on the idea that there is a single “central” copy of your project somewhere (probably on a server), and programmers will “commit” their changes to this central copy.</p>
 					</section>
 					<section>
 						Picture
@@ -181,6 +236,7 @@
                     <h3>Distributed Version Control</h3>
 					<section>
 						Definition
+						<p>These systems do not necessarily rely on a central server to store all the versions of a project’s files. Instead, every developer “clones” a copy of a repository and has the full history of the project on their own hard drive. This copy (or “clone”) has all of the metadata of the original</p>
 					</section>
 					<section>
 						Picture
@@ -264,7 +320,9 @@
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                     // Zoom in and out with Alt+click
+                    { src: 'plugin/zoom-js/zoom.js', async: true },
 				]
 			});
 		</script>
