@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Introduction to Version Control</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css">
@@ -43,12 +43,9 @@
 					</section>
 					<section>
                         <code>
-                            ClassProject2016_final.doc
-                            ClassProject2016_final_test.doc
-                            ClassProject2016_final_jane_copy.doc
-                            ClassProject2016_final_john_copy.doc
-                            ClassProject2016_FINAL.doc
-                            ClassProject2016_FINAL_FINAL.doc
+                            ClassProject_final_v1.1.doc
+                            ClassProject_last_version_2.doc
+                            ClassProject2016_10_25_ready_new.doc
                         </code>
 					</section>
 					<section>
@@ -70,7 +67,6 @@
 						<ul>
 							<li>What if you are working on a team? How will you collate your work?</li>
 							<li>What if you are working on a lot of files?</li>
-							<li>What if you want to save versions frequently?</li>
 							<li>What if you messed up and want to get back to the last correct copy?</li>
 						</ul>
 					</section>
@@ -142,99 +138,53 @@
 					</section>
 				</section>
 
-
 				<section>
 					<h2>Version Control Concepts</h2>
 				</section>
 
 				<section>
-					<h3>Repository</h3>
+					<h3>Repository, Working Copy and Versions</h3>
 					<section>
-						<p>The repository is where files' current and historical data are stored, often on a server.</p>
+						Version control uses a <u>repository</u> (a database of changes) and a <u>working copy</u> where you do your work.
 					</section>
 					<section>
-						Picture
-					</section>
-				</section>
-
-				<section>
-					<h3>Versions / Revisions</h3>
-					<section>
-						<p>To commit (check in, ci or, more rarely, install, submit or record) is to write or merge the changes made in the working copy back to the repository. The terms 'commit' and 'checkin' can also be used as nouns to describe the new revision that is created as a result of committing.</p>
+						A <em>repository</em> is a database of all the edits to, and/or historical versions (snapshots) of, your project.
 					</section>
 					<section>
-						Picture
-					</section>
-				</section>
-
-				<section>
-					<h3>Commits</h3>
-					<section>
-						Definition
+						<p>Your <em>working copy</em> (sometimes called a checkout) is your personal copy of all the files in the project.</p>
+						<p>You make arbitrary edits to this copy, without affecting your teammates.</p>
+						<p>When you are happy with your edits, you <em>commit</em> your changes to a <em>repository</em>.</p>
 					</section>
 					<section>
-						Picture
+						<img src="/images/repository.png" alt="Repository and Working Copy">
+					</section>
+					<section>
+						When you do a <u>commit</u>(or a checkin), you get a new <u>version</u>
+					</section>
+					<section>
+						<img src="/images/basic_checkin.png" alt="Basic Checkin">
 					</section>
 				</section>
 
 				<section>
-					<h3>HEAD</h3>
-					<section>
-						Definition
-					</section>
-					<section>
-						Picture
-					</section>
-				</section>
-
-				<section>
-					<h2>Single Timeline</h2>
-				</section>
-
-				<section>
-					<h3>Diff</h3>
-					<section>
-						Definition
-					</section>
-				</section>
-
-				<section>
-					<h3>Blame</h3>
-					<section>
-						Definition
-					</section>
+					<h3>All of these is fine and dandy but what can I do with it?</h3>
 				</section>
 
 				<section>
 					<h3>Revert</h3>
 					<section>
-						Definition
+						If you don’t like your changes and want to start over, you can revert to the previous version and start again (or stop).
 					</section>
-				</section>
-
-				<section>
-					<h2>Multiple Timelines</h2>
-				</section>
-
-				<section>
-					<h3>Branches</h3>
 					<section>
-						Definition
+						<img src="/images/checkout_edit.png" alt="Checkout Edit">
+					</section>
+					<section>
+						NOTE: You are <strong>not</strong> limited to reverting to the last version. You can actually go back to any version you want!
 					</section>
 				</section>
 
 				<section>
-					<h3>Merge</h3>
-					<section>
-						Definition
-					</section>
-				</section>
-
-				<section>
-					<h3>Conflict</h3>
-					<section>
-						Definition
-					</section>
+					<h3>Branching</h3>
 				</section>
 
 				<section>
@@ -247,10 +197,7 @@
 						<p>Centralized version control systems are based on the idea that there is a single “central” copy of your project somewhere (probably on a server), and programmers will “commit” their changes to this central copy.</p>
 					</section>
 					<section>
-						Picture
-					</section>
-					<section>
-						Example
+						<img src="/images/centralized_version_control.png" alt="Centralized Version Control">
 					</section>
 				</section>
 				<section>
@@ -260,10 +207,7 @@
 						<p>These systems do not necessarily rely on a central server to store all the versions of a project’s files. Instead, every developer “clones” a copy of a repository and has the full history of the project on their own hard drive. This copy (or “clone”) has all of the metadata of the original</p>
 					</section>
 					<section>
-						Picture
-					</section>
-					<section>
-						Example
+						<img src="/images/distributed_version_control.png" alt="Distributed Version Control">
 					</section>
 				</section>
 				<section>
