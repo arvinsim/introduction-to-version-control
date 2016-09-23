@@ -1,0 +1,12 @@
+* Postmortem
+** What was done great?
+*** Demo an actual sample of version control operations
+*** Outline of the project was great
+** What was done poorly? What can be remove?
+*** They don't need to know the different implementations of version control
+*** They don't need to know the different types of version control
+*** Technical explanations copied directly from internet sources are bad. It would just confuse the audience with jargon
+** What could be done to make it better?
+*** Create and setup a repository pretalk so that I don't have to waste time doing it in the talk itself
+*** Focus on just one implementation. In this case, use Git
+*** Paraphrase direct definitions from the internet into a more audience friendly languaeg
